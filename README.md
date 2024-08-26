@@ -74,3 +74,19 @@ Run it with:
 ```powershell
 cargo audit
 ```
+
+## Scan you dependencies for vulnerabilities
+
+You can scan your dependencies using `cargo-deny`.
+
+Install it with:
+
+```powershell
+cargo install cargo-deny
+```
+
+Run it with:
+
+```powershell
+cargo deny check advisories
+```
